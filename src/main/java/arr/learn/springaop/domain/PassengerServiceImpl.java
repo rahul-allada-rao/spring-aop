@@ -5,10 +5,10 @@ import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;
 
 @Component
-public class PassengerServiceImpl implements Passenger {
+public class PassengerServiceImpl implements PassengerService {
 
 
-  private static final Logger LOGGER=LoggerFactory.getLogger(PassengerServiceImpl.class);
+  private static final Logger LOGGER = LoggerFactory.getLogger(PassengerServiceImpl.class);
 
   @Override
   public void fly(String passengerName) {

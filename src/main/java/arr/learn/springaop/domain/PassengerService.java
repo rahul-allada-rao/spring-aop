@@ -1,6 +1,6 @@
 package arr.learn.springaop.domain;
 
-public interface Passenger {
+public interface PassengerService {
 
   void fly(String passengerName);
 }
